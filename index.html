@@ -12,7 +12,22 @@
   <link rel="shortcut icon" href="assets/images/logo-128x128.png" type="image/x-icon">
   <meta name="description" content="The Stark Global Initiative is a domestic non-profit think tank centered around disrupting humanity for the better. They are a philanthropic subsidiary of the Stark Drones Corporation.">
   <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17589990572"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-17589990572'); </script>
-  
+<!-- Event snippet for Outbound click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17589990572/JQlACP3S168bEKzpx8NB',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
   <title>SGI</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
