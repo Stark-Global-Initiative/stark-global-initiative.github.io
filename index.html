@@ -20,11 +20,53 @@
   <link rel="preload" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/cookie-consent.css" type="text/css">
 
+  <!-- Google Consent Mode -->
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  
+  // Set default consent to denied
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+  </script>
+  <!-- End Google Consent Mode -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P7J2HRCW');</script>
+  <!-- End Google Tag Manager -->
+
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-17589990572/JQlACP3S168bEKzpx8NB',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
   
   
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7J2HRCW"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   
   <section data-bs-version="5.1" class="header8 cid-sHEeiC9sJh mbr-fullscreen" id="header8-0">
     
@@ -44,7 +86,7 @@
                     <h5 class="mbr-section-subtitle mbr-fonts-style display-4">innovation</h5>
                     <p class="desc1 mbr-section-title mbr-fonts-style display-1">The Stark Global Initiative</p>
                     <p class="desc2 mbr-fonts-style display-7">The Stark Global Initiative is a domestic non-profit think tank centered around disrupting humanity for the better. They are a philanthropic subsidiary of the Stark Drones Corporation.<br></p>
-                    <div class="mbr-section-btn"><a class="btn btn-black display-4" href="https://opencollective.com/sgi" target="_blank">Open Collective</a></div>
+                    <div class="mbr-section-btn"><a class="btn btn-black display-4" href="https://opencollective.com/sgi" target="_blank" onclick="return gtag_report_conversion('https://opencollective.com/sgi')">Open Collective</a></div>
                 </div>
             </div>
         </div>
@@ -64,7 +106,7 @@
                 
             </div>
             <div class="col-12 col-lg-10 card">
-                <div class="mbr-figure"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/zej1BBzyJPE?rel=0&amp;amp;&amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+                <div class="mbr-figure"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/zej1BBzyJPE?enablejsapi=1&origin=https://starkglobalinitiative.org" width="1280" height="720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
             </div>
         </div>
     </div>
@@ -334,7 +376,7 @@
             </div>
             <h5 class="mbr-section-title mbr-fonts-style display-2">Philanthropy should be disruptive.</h5>
             <p class="mbr-text desc mbr-fonts-style display-7">We want to change the world for the better. Self-centered philanthropy benefits nobody.</p>
-            <div class="mbr-section-btn"><a class="btn btn-danger display-4" href="https://www.volunteermatch.org/search/org1234767.jsp" target="_blank">Volunteer</a></div>
+            <div class="mbr-section-btn"><a class="btn btn-danger display-4" href="https://www.volunteermatch.org/search/org1234767.jsp" target="_blank" onclick="return gtag_report_conversion('https://www.volunteermatch.org/search/org1234767.jsp')">Volunteer</a></div>
         </div>
     </div>
 </section>
@@ -342,13 +384,257 @@
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/ytplayer/index.js"></script>
   <script src="assets/playervimeo/vimeo_player.js"></script>
   <script src="assets/theme/js/script.js"></script>
+  <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/js/cookie-consent.js"></script>
   
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent-banner" class="cookie-consent-banner">
+    <div class="cookie-consent-container">
+      <div class="cookie-consent-content">
+        <div class="cookie-consent-text">
+          <h3>🍪 Cookie Consent</h3>
+          <p>We use cookies to enhance your experience, analyze site traffic, and for marketing purposes. By clicking "Accept All", you consent to our use of cookies. <a href="#" class="privacy-policy-link">Read our Privacy Policy</a></p>
+        </div>
+        <div class="cookie-consent-actions">
+          <button id="cookie-accept-all" class="cookie-consent-btn cookie-consent-btn-accept">Accept All</button>
+          <button id="cookie-decline" class="cookie-consent-btn cookie-consent-btn-decline">Decline Non-Essential</button>
+          <button id="cookie-settings-btn" class="cookie-consent-btn cookie-consent-btn-settings">Customize Settings</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Privacy Policy Modal -->
+  <div id="privacy-modal" class="privacy-modal">
+    <div class="privacy-modal-content">
+      <div class="privacy-modal-header">
+        <h2>Privacy Policy</h2>
+        <span class="privacy-modal-close">&times;</span>
+      </div>
+      <div class="privacy-modal-body">
+        <p class="privacy-effective-date"><strong>Effective Date:</strong> October 31, 2025</p>
+        
+        <p>Stark Global Initiative (referred to as "SGI," "we," "us," or "our") functions as a domestic non-profit organization established under the laws of the State of Michigan. Our core purpose centers on promoting groundbreaking charitable endeavors through a range of initiatives designed to confront worldwide problems. These include the creation of decentralized technological systems, the distribution of enduring supplies to disadvantaged groups, and the endorsement of novel strategies in sectors such as medical care, instructional programs, and assistance for those in distress. We operate the website located at https://starkglobalinitiative.org/ (known as the "Website") to disseminate details regarding our activities. This encompasses the 17 unique projects under our support, spanning from urgent assistance operations to cooperative open-source advancements in fields like prosthetic devices and network connectivity.</p>
+
+        <p>This Privacy Policy explains our approaches to the acquisition, application, dissemination, and defense of personal details. It pertains to every person who accesses or interacts with our Website, irrespective of their geographic position. As a non-profit based in Michigan, we conform to pertinent United States federal and state statutes related to data confidentiality and protection. We further acknowledge the possible relevance of overseas directives, including the General Data Protection Regulation (GDPR) (EU) 2016/679 for individuals within the European Union or European Economic Area, in light of the international scope of our undertakings and visitors. Moreover, for those residing in California, we observe the California Consumer Privacy Act (CCPA), modified by the California Privacy Rights Act (CPRA), insofar as it relates to our functions.</p>
+
+        <p>We pledge to manage personal information with diligence, although we accept that no mechanism achieves complete invulnerability. This policy delineates the varieties of information we assemble, the objectives for its utilization, and the alternatives open to you. Should you possess inquiries, kindly utilize the contact particulars listed at the conclusion of this document.</p>
+
+        <h3>Scope and Applicability</h3>
+        <p>This Privacy Policy encompasses personal information managed through our Website. Personal information denotes any data that distinguishes or might logically distinguish a particular individual, for example, names, electronic mail addresses, or internet-based identifiers. It omits information that has been rendered anonymous or compiled in aggregates that preclude association with a distinct person.</p>
+        
+        <p>Our activities are chiefly situated in the United States, with our primary facility at 801 W Big Beaver Rd., Ste - 300 MB #38, Troy, MI 48084. In our capacity as a Michigan non-profit, we adhere to federal enactments such as the Federal Trade Commission Act (15 U.S.C. §§ 41-58), which forbids unjust or misleading commercial behaviors, encompassing inaccurate declarations concerning privacy. We likewise fulfill the stipulations of the Controlling the Assault of Non-Solicited Pornography and Marketing (CAN-SPAM) Act (15 U.S.C. §§ 7701-7713) for any business-oriented electronic correspondences, even though our dispatches are generally educational instead of sales-oriented.</p>
+
+        <p>Michigan does not possess an all-encompassing consumer privacy statute comparable to those in certain other states, yet we comply with the state's mandates for alerting about data breaches pursuant to the Michigan Identity Theft Protection Act (Mich. Comp. Laws §§ 445.63 et seq.). This act demands swift notification should a security event impact personal information. For individuals not residing in Michigan, we take into account laws specific to other states as appropriate. For illustration, pursuant to the CCPA (Cal. Civ. Code §§ 1798.100 et seq.), residents of California hold entitlements to ascertain, remove, and decline the vending of their personal information, although we engage in no such vending.</p>
+
+        <p>Considering our focus on international matters, with projects extending across areas such as the Middle East, Europe, and additional regions, we may handle data originating from users beyond the U.S. For subjects of data in the EU, the GDPR becomes operative if we furnish services to them or oversee their conduct. Article 3 of the GDPR broadens its jurisdiction to entities outside the EU in these scenarios. In a similar vein, the UK GDPR, which replicates the EU framework following Brexit, could pertain to users in the UK. We appoint our Michigan establishment as the data controller for the objectives of these regulations.</p>
+
+        <p>This policy fails to cover websites of third parties connected from our Website, such as those belonging to our overseeing entity, Riemann Computing, or associates in projects. Individuals ought to examine the policies of those organizations independently. We periodically incorporate external material, such as videos from YouTube, which could entail data practices from third parties. To elaborate further, these embedded elements might activate tracking mechanisms controlled by the external providers, and while we select them to enrich our content, we advise users to be mindful of the separate privacy terms that govern such integrations.</p>
+
+        <h3>Information We Collect</h3>
+        <p>We amass a restricted amount of personal information, chiefly to enable user involvement with our materials. The classifications encompass the following:</p>
+        <ul>
+          <li><strong>Contact Information:</strong> If you initiate communication through any submission form or electronic mail (although our existing Website lacks overt forms, we foresee conceivable future incorporations), we might accumulate your name, electronic mail address, telephone number, or postal address. This data assists in addressing specific queries or facilitating participation in our initiatives.</li>
+          <li><strong>Usage Data:</strong> Details captured automatically regarding your engagement with the Website, including IP address, type of browser, operating system, pages examined, duration expended, and originating URLs. Such information aids us in comprehending how visitors navigate our site and which sections, such as project descriptions, attract the most attention.</li>
+          <li><strong>Device Information:</strong> Particulars concerning the apparatus employed to reach the site, incorporating distinctive identifiers, model, and network specifics. This helps ensure compatibility and optimize the user experience across various platforms.</li>
+          <li><strong>Location Data:</strong> Estimated position inferred from IP addresses, except if more accurate information is supplied willingly. We use this to gauge the geographic diversity of our audience, which informs our global outreach strategies.</li>
+          <li><strong>Preferences and Interests:</strong> Data deduced from your navigation habits or conveyed via interactions, such as fascination with particular projects. For example, repeated views of content on sustainable water solutions might indicate interest in related humanitarian efforts.</li>
+        </ul>
+
+        <p>We refrain from intentionally amassing sensitive personal information, such as details on racial or ethnic background, political views, religious convictions, medical conditions, or hereditary traits, unless it bears direct relevance to a project and is accompanied by explicit authorization. As an instance, within ventures like Project Guardian, which targets human trafficking concerns, any pertinent data would receive elevated scrutiny, yet our Website presently does not request such particulars. We are vigilant in this regard to prevent unnecessary exposure to risks.</p>
+
+        <p>Pursuant to the GDPR, personal data comprises any information connected to an identified or identifiable living individual (Article 4(1)). We regard online identifiers, including cookies, as personal data should they link to a person. Analogously, the CCPA delineates personal information expansively to incorporate identifiers and derivations (Cal. Civ. Code § 1798.140(v)). This broad interpretation ensures we treat inferred preferences with the same care as direct inputs.</p>
+
+        <p>In actual operation, our accumulation remains modest, given that the Website primarily functions for informational dissemination. Nevertheless, should we broaden to encompass contribution gateways or subscription lists for updates, we would amend this policy to reflect those developments. Such expansions would be approached cautiously, with additional safeguards to maintain user trust.</p>
+
+        <h3>How We Collect Information</h3>
+        <p>We acquire information via both direct and indirect channels.</p>
+        <p>Directly, users might furnish data by reaching out to us or, prospectively, by enrolling for notifications. Indirectly, we deploy automated instruments:</p>
+        <ul>
+          <li><strong>Cookies and Similar Technologies:</strong> Refer to the allocated segment below for comprehensive details on these.</li>
+          <li><strong>Analytics Tools:</strong> We utilize Google Analytics and Google AdWords to monitor Website efficacy and user participation. These instruments gather data on visitations, rates of departure, and transformations, providing insights that help refine our online presence.</li>
+          <li><strong>Embedded Content:</strong> Videos from YouTube on our platform may establish cookies to record observations and inclinations, enhancing the viewing process for educational content about our projects.</li>
+          <li><strong>Server Logs:</strong> Our service host documents access petitions for purposes of security and preservation, logging attempts to identify potential threats or technical issues.</li>
+        </ul>
+
+        <p>We secure approval for non-essential cookies and monitoring through a prominent banner on the Website. Users possess the capacity to administer their selections at any moment, although obstructing cookies could constrain certain capabilities. This consent process is designed to be user-friendly, allowing for informed decisions without disrupting the overall experience.</p>
+
+        <p>In accordance with directives from the FTC, we guarantee openness in these techniques. For users in the EU, we depend on consent as the juridical foundation for processing under GDPR Article 6(1)(a), or on legitimate concerns (Article 6(1)(f)) for fundamental functions, equilibrated against the entitlements of users. We periodically review these bases to ensure they remain appropriate.</p>
+
+        <p>To provide more context, our indirect collection methods are chosen for their minimal intrusiveness, focusing on aggregate trends rather than individual profiling. This aligns with our non-profit ethos, where data serves to amplify impact rather than generate revenue.</p>
+
+        <h3>Use of Information</h3>
+        <p>We process personal information for defined, justifiable aims connected to our non-profit aspirations.</p>
+        
+        <p>Principally, we employ data to administer and enhance the Website. Examining usage configurations assists in polishing content, for example, by emphasizing well-received projects such as the Decentralized Internet or Water4ThePeople. Contact particulars permit replies to questions concerning our efforts in domains like crisis alleviation or science, technology, engineering, and mathematics education.</p>
+
+        <p>We could also apply amalgamated data for disclosures to interested parties, illustrating outcomes without pinpointing persons. For demonstration, we might convey statistics on worldwide visitor compositions to exhibit our extension in bolstering endeavors in locales like Armenia or Syria. This reporting is crucial for securing ongoing support and demonstrating accountability.</p>
+
+        <p>Under no conditions do we apply information for straightforward promotional activities absent consent, in harmony with CAN-SPAM prerequisites. Should we dispatch electronic mails, addressees can discontinue receipt with simplicity, typically via an unsubscribe link at the message's base.</p>
+
+        <p>For intentions under the GDPR, our processing rests on consent, necessity for agreements (where pertinent), or legitimate concerns, such as upholding site integrity. We execute equilibrium evaluations to confirm these concerns do not supersede user entitlements, especially in relation to analytical processes. These assessments involve weighing the benefits to our mission against potential privacy impacts.</p>
+
+        <p>A subtle facet involves the fact that, although our worldwide projects seek to aid assorted populations, the employment of data stays restricted to functional necessities. We eschew superfluous processing, appreciating that excessive accumulation might erode confidence in a non-profit setting. Furthermore, we consider the broader implications of data use, ensuring it contributes positively to our goals without unintended consequences.</p>
+
+        <h3>Sharing of Information</h3>
+        <p>We disseminate personal information solely when essential and with appropriate defenses in place:</p>
+        <ul>
+          <li><strong>Service Providers:</strong> We involve external entities for services like hosting, analytical examinations (for instance, Google), and conceivably transaction handling if contributions are introduced. These suppliers are obligated by agreements to uphold data safeguarding commensurate with our standards, often including clauses for confidentiality and limited use.</li>
+          <li><strong>Affiliates:</strong> Being a subordinate of Riemann Computing, we may exchange data for joint ventures, yet strictly on a basis of necessity for knowledge.</li>
+          <li><strong>Legal Obligations:</strong> We reveal information if mandated by legislation, such as in response to a judicial summons or to align with Michigan's protocols for data breaches. In situations involving organizational shifts like amalgamations or reorganizations, data could be conveyed to succeeding parties, with assurances of continued protection.</li>
+          <li><strong>With Consent:</strong> For any additional dissemination, we procure unambiguous permission from the concerned individual.</li>
+        </ul>
+
+        <p>We abstain from vending personal information, as stipulated under CCPA § 1798.140(t). For users in the EU, dissemination to providers situated in the U.S. incorporates standard contractual provisions or alternative mechanisms sanctioned by the GDPR (Article 46) to warrant sufficient safeguarding. These measures are selected based on the specific context of the transfer.</p>
+
+        <p>One aspect to note is that our international ventures could entail collaborators in territories with divergent privacy norms, such as the Middle East. In those instances, we anonymize data whenever feasible to diminish hazards, and we conduct due diligence on partners to verify their compliance capabilities. This proactive approach helps maintain consistency in data handling across borders.</p>
+
+        <h3>Cookies and Tracking Technologies</h3>
+        <p>Cookies consist of compact text files deposited on your apparatus to augment Website operations and amass perceptions. We apply them to retain inclinations, scrutinize flow, and sustain incorporated media.</p>
+
+        <p>We classify cookies in the ensuing manner:</p>
+        <ul>
+          <li><strong>Necessary Cookies:</strong> Indispensable for elementary functions, such as preserving session conditions. For illustration, __Secure-ROLLOUT_TOKEN (youtube.com, 6 months) and __Secure-YEC (youtube.com, past) manage secure attributes.</li>
+          <li><strong>Functional Cookies:</strong> Augment user involvement, such as preserving video configurations. Instances comprise VISITOR_INFO1_LIVE (youtube.com, 6 months) for assessing bandwidth; yt-remote-connected-devices, yt-remote-device-id, ytidb::LAST_RESULT_ENTRY_KEY, yt-remote-session-name, yt-remote-fast-check-period, yt-remote-session-app, yt-remote-cast-available, and yt-remote-cast-installed (all youtube.com, with durations ranging from session to indefinite) for configurations of the YouTube player.</li>
+          <li><strong>Analytics Cookies:</strong> Assist in comprehending utilization. YSC (youtube.com, session) monitors views of incorporated videos; VISITOR_PRIVACY_METADATA (youtube.com, 6 months) oversees states of consent.</li>
+          <li><strong>Other Cookies:</strong> Not categorized, yet supervised for adherence.</li>
+        </ul>
+
+        <p>We additionally employ Google Analytics and AdWords, which position cookies to follow visitations in an anonymous fashion. These instruments furnish measurements such as distinct visitors and length of sessions, supporting our evaluation of international participation. For example, they reveal which project pages draw traffic from specific regions, allowing us to tailor content accordingly.</p>
+
+        <p>Consistent with developing regulatory examination in the U.S., including the FTC's concentration on monitoring and contemporary Michigan judicial decisions on privacy in social media, we institute a mechanism for cookie consent. When accessing the Website, a banner solicits users to endorse or decline non-indispensable cookies. Consent is detailed, permitting selections for classifications like analytics and functional.</p>
+
+        <p>For users in the EU, this conforms to GDPR Article 7 and the stipulations of the ePrivacy Directive for consent that is informed and voluntarily provided. Users may revoke consent through adjustments in their browser or by communicating with us. Be aware that cookies from YouTube are established by third parties; we recommend consulting Google's privacy policy for specifics.</p>
+
+        <p>We preserve cookie data solely for the requisite period: session cookies terminate upon browser closure, whereas enduring ones persist up to 6 months, as enumerated. To oversee cookies, modify your browser inclinations, although this could influence performance of the site. We also provide guidance on common browser settings to empower users in managing these technologies.</p>
+
+        <p>This portion embodies our dedication to clarity, recognizing that monitoring technologies advance over time, and thus we periodically scrutinize our methods to rectify any prospective deficiencies. Regular reviews ensure alignment with best practices and evolving legal expectations.</p>
+
+        <h3>Data Security</h3>
+        <p>We enact prudent measures to shield personal information from illicit entry, modification, or eradication. These encompass encryption for data transfers (for example, HTTPS), restrictions on access, and habitual evaluations.</p>
+
+        <p>Our servers reside in the U.S., with reserve copies protected in a comparable manner. Personnel and volunteers undergo instruction on data management, and we mandate agreements for non-disclosure to reinforce confidentiality.</p>
+
+        <p>Notwithstanding these initiatives, total security remains elusive, as conveyances via the internet inherently involve perils. In the occurrence of a breach, we inform impacted persons in accordance with Michigan legislation (Mich. Comp. Laws § 445.72), which stipulates revelation within an appropriate interval, and we adhere to federal criteria if information pertaining to health is implicated under HIPAA (although this is not ordinarily relevant to our operations).</p>
+
+        <p>For conformity with the GDPR, we sustain documentation of processing endeavors (Article 30) and perform assessments of data protection impacts for activities bearing elevated risks, such as the application of artificial intelligence in Project Guardian. These assessments involve identifying potential vulnerabilities and implementing mitigations to protect user data.</p>
+
+        <p>Additionally, we engage in ongoing monitoring of our systems to detect anomalies, and we collaborate with security experts to stay abreast of emerging threats. This multifaceted strategy underscores our commitment to robust data protection.</p>
+
+        <h3>Your Rights and Choices</h3>
+        <p>We esteem the authority of users over their personal information, acknowledging that persons ought to possess substantive avenues concerning the management of their data. This segment expounds on the diverse entitlements accessible to you, contingent upon your locale and the pertinent statutes. We endeavor to address all petitions expeditiously and impartially, although durations for responses might fluctuate according to the intricacy of the petition or the extent of data entailed. Kindly observe that we may necessitate confirmation of your identity prior to executing specific petitions to guard against unsanctioned entry.</p>
+
+        <h4>General Rights</h4>
+        <ul>
+          <li><strong>Access and Correction:</strong> You may solicit a duplicate of the personal information we maintain regarding you, incorporating particulars on its utilization or dissemination. This enables you to inspect the precision and thoroughness of the data. Should you discern any inaccuracies or antiquated components, you may petition us to revise or amend them. For example, if your contact particulars have altered since your most recent engagement with our Website, we shall effect the requisite modifications following authentication. This entitlement aids in guaranteeing that our archives stay dependable and indicative of your present situation.</li>
+          <li><strong>Deletion:</strong> You hold the capability to petition that we obliterate your personal information from our systems, which we shall accomplish unless obligated to preserve it for juridical motives, such as conformity with fiscal duties, settlement of conflicts, or satisfaction of continuing contractual pledges linked to our non-profit pursuits. In circumstances where complete obliteration proves impracticable, we may instead render the data anonymous, thereby making it incapable of association with you. This procedure customarily entails an examination to affirm the absence of exemptions, and we aspire to finalize it within a sensible period subsequent to your petition.</li>
+          <li><strong>Opt-Out:</strong> At any juncture, you can elect to abstain from involvement in monitoring activities on our Website or withdraw from obtaining correspondences from us, such as bulletins on our projects or informational newsletters. This may be achieved via the cookie consent banner, by altering your browser configurations, or by contacting us outright. Upon opting out, we shall halt the pertinent processing, although certain fundamental functions might experience impairment if they depend on particular technologies. We respect these inclinations without postponement, comprehending that autonomy of users is pivotal to cultivating reliance in our entity.</li>
+        </ul>
+
+        <h4>California Residents (CCPA/CPRA)</h4>
+        <p>For residents of California, the California Consumer Privacy Act (CCPA), as revised by the California Privacy Rights Act (CPRA) commencing January 1, 2023, affords particular safeguards. These safeguards pertain to personal information amassed during the preceding 12 months and are applicable even if you are not a direct utilizer but your data has been procured through our operations. We impose no charges for availing these entitlements, and we manage up to two petitions annually per person without supplementary authentication encumbrances unless we harbor suspicions of deceit.</p>
+        <ul>
+          <li><strong>Right to Know:</strong> You can petition revelation of the classifications of personal information we have amassed concerning you, the origins from which we procured it, the commercial or business objectives for its accumulation, and the classifications of third parties with whom we have disseminated it (Cal. Civ. Code § 1798.110). This incorporates, for instance, ascertaining whether we have collected usage data through Google Analytics and disseminated amalgamated perceptions with our service suppliers. We furnish this information in a transportable format upon petition, permitting you to grasp the complete breadth of our data methodologies.</li>
+          <li><strong>Right to Delete:</strong> You may instruct us to eradicate your personal information that we have amassed and preserved, subject to specific exemptions such as finalizing a transaction or identifying security occurrences (Cal. Civ. Code § 1798.105). Should we repudiate a deletion petition owing to an exemption, we shall elucidate the grounds in our reply. This entitlement authorizes you to excise data that ceases to be essential for our aims, although it does not encompass information that has undergone de-identification.</li>
+          <li><strong>Right to Opt Out of Sales or Sharing:</strong> Although we do not vend personal information in the conventional manner, you possess the entitlement to abstain from any prospective dissemination for behavioral advertising across contexts or other configurations that could qualify as a "sale" pursuant to the statute (Cal. Civ. Code § 1798.120). Given that our non-profit standing curtails such pursuits, this entitlement chiefly operates as a preventive step. You can invoke it via a "Do Not Sell or Share My Personal Information" connection, which we intend to establish on our Website if pertinent.</li>
+          <li><strong>Right to Non-Discrimination:</strong> We shall not impose discrimination upon you for invoking any CCPA entitlements, such as by withholding services, imposing disparate charges, or delivering an inferior caliber of encounter (Cal. Civ. Code § 1798.125). For example, abstaining from monitoring shall not impede your access to our materials on worldwide endeavors. This guarantees that affirming your privacy predilections incurs no detrimental handling.</li>
+        </ul>
+
+        <p>To tender petitions under the CCPA, kindly dispatch an electronic mail to us at the contact designation furnished below. We shall confirm receipt within 10 business days and strive to furnish a substantive reply within 45 days, with a feasible prolongation of an additional 45 days if the petition proves exceptionally intricate. We shall apprise you should a prolongation be requisite, accompanied by the justification.</p>
+
+        <h4>EU/EEA Residents (GDPR)</h4>
+        <p>For data subjects within the European Union or European Economic Area pursuant to the General Data Protection Regulation (GDPR) (EU) 2016/679, or the corresponding UK GDPR, you gain from a sturdy array of entitlements crafted to afford you amplified dominion over your personal data. These are operative if we process your data in the role of controller, and we predicate our processing on foundations such as consent or legitimate concerns. Invoking these entitlements incurs no expense, and we urge you to do so should you harbor apprehensions regarding our management of your information.</p>
+        <ul>
+          <li><strong>Rights to Access, Rectification, Erasure, Restriction, Portability, and Objection:</strong> You can procure a duplicate of your personal data and details concerning its processing (Article 15), solicit amendments to imprecise or deficient data (Article 16), pursue obliteration under specified conditions such as when the data no longer serves the initial intent ('right to be forgotten,' Article 17), request curtailment of processing while we authenticate its precision or amid reviews of objections (Article 18), obtain your data in a structured, routinely employed format for conveyance to another controller (portability, Article 20), and contest processing predicated on legitimate concerns or for direct promotional aims (Article 21). For instance, should you contest analytical monitoring, we shall cease unless we can evince compelling rationales that prevail over your concerns. These interlinked entitlements permit customized administration of your data, with obliteration proving especially beneficial if you rescind previously accorded consent.</li>
+          <li><strong>Right to Lodge Complaints:</strong> Should you deem our processing to infringe upon your entitlements, you can submit a grievance with a supervisory entity in your member state, such as the Information Commissioner's Office (ICO) in the UK or the applicable data safeguarding authority in your nation. This extraneous supervision furnishes an extra stratum of responsibility, and we collaborate entirely with any inquiries. Particulars on contacting authorities are accessible on their respective platforms, and we can offer direction if solicited.</li>
+        </ul>
+
+        <p>We address GDPR petitions without inordinate postponement, ordinarily within one month, extendable by two additional months for intricate instances, with notification of any deferral. As with other entitlements, authentication of identity may be obligatory to preserve data security.</p>
+
+        <h4>Children's Privacy</h4>
+        <p>Children below the age of 13 (or 16 for specific services) receive protection under the Children's Online Privacy Protection Act (COPPA) (15 U.S.C. §§ 6501-6506). Our Website is not oriented toward children, yet projects such as Stark Clubs encompass science, technology, engineering, and mathematics for young people. We do not consciously amass data from children absent parental sanction; if uncovered, we expunge it forthwith. We take extra precautions in youth-related initiatives to ensure compliance.</p>
+
+        <h3>International Transfers</h3>
+        <p>Data undergoes processing in the U.S., which the European Commission considers insufficient without protections. For conveyances from the EU, we employ certification under the Data Privacy Framework (if applicable) or standard contractual clauses endorsed pursuant to GDPR Article 46.</p>
+
+        <p>We curtail transfers across borders, yet collaborations on a global scale may require them. Recipients commit to comparable protections, and we monitor adherence to prevent discrepancies.</p>
+
+        <p>To expand on this, we evaluate each transfer for risks, incorporating measures like encryption or limited data sets to enhance security during transit.</p>
+
+        <h3>Changes to This Policy</h3>
+        <p>We may revise this Privacy Policy to mirror alterations in our methodologies or legal frameworks. Modifications will be displayed with the updated effective date. Substantial alterations will trigger conspicuous notifications, such as through the Website. Sustained utilization signifies concurrence.</p>
+
+        <p>We suggest periodic examinations; antecedent editions are obtainable upon solicitation. This ensures users remain informed of any evolutions in our practices.</p>
+
+        <h3>Contact Us</h3>
+        <p>For inquiries, invocations of entitlements, or preoccupations, please communicate with:</p>
+        <p>
+          <strong>Stark Global Initiative</strong><br>
+          801 W Big Beaver Rd.<br>
+          Ste - 300 MB #38<br>
+          Troy, MI 48084<br>
+          Email: <a href="mailto:andrew@starkglobalinitiative.org" style="color: #4CAF50;">andrew@starkglobalinitiative.org</a>
+        </p>
+        <p>Our executive director serves as the data protection officer for GDPR objectives, overseeing adherence and responding to concerns.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cookie Settings Modal -->
+  <div id="cookie-settings-modal" class="cookie-settings-modal">
+    <div class="cookie-settings-content">
+      <div class="cookie-settings-header">
+        <h2>Cookie Preferences</h2>
+        <span class="privacy-modal-close cookie-settings-close">&times;</span>
+      </div>
+      
+      <div class="cookie-category">
+        <div class="cookie-category-header">
+          <div>
+            <h3>Necessary Cookies</h3>
+            <p>Required for basic site functionality. Cannot be disabled.</p>
+          </div>
+          <label class="cookie-toggle">
+            <input type="checkbox" checked disabled>
+            <span class="cookie-toggle-slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="cookie-category">
+        <div class="cookie-category-header">
+          <div>
+            <h3>Functional Cookies</h3>
+            <p>Enable enhanced functionality and personalization (e.g., video player settings).</p>
+          </div>
+          <label class="cookie-toggle">
+            <input type="checkbox" id="cookie-functional">
+            <span class="cookie-toggle-slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="cookie-category">
+        <div class="cookie-category-header">
+          <div>
+            <h3>Analytics Cookies</h3>
+            <p>Help us understand how visitors interact with our website (e.g., Google Analytics).</p>
+          </div>
+          <label class="cookie-toggle">
+            <input type="checkbox" id="cookie-analytics">
+            <span class="cookie-toggle-slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="cookie-settings-actions">
+        <button id="save-cookie-preferences" class="cookie-consent-btn cookie-consent-btn-accept">Save Preferences</button>
+        <button id="accept-all-settings" class="cookie-consent-btn cookie-consent-btn-accept">Accept All</button>
+      </div>
+    </div>
+  </div>
   
-  
-</body>
-</html>
 </body>
 </html>
